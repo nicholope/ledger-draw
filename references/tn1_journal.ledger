@@ -203,6 +203,28 @@
 
 
 ; ----------------------------
+; CAPITAL CONTRIBUTIONS — Equity Investors
+; ----------------------------
+
+2026-05-07 * Capital Contribution — Investor A (Solano Capital Partners)
+    Assets:TN1:ConstructionAccount          $500,000.00
+    Equity:TN1:InvestorA:Solano
+
+2026-05-07 * Capital Contribution — Investor B (R. Mendez — HNW Individual)
+    Assets:TN1:ConstructionAccount          $250,000.00
+    Equity:TN1:InvestorB:Mendez
+
+
+; ----------------------------
+; ADJUSTING ENTRY — PM Fees Reclassified to Accrued Liability
+; ----------------------------
+
+2026-05-07 * AJE-001 — Reclassify PM Fees: Cash → Accrued Liability
+    Assets:TN1:ConstructionAccount          $103,000.00
+    Liabilities:TN1:AccruedPMFees          $-103,000.00
+
+
+; ----------------------------
 ; LENDER DRAW #2 — April Advance
 ; ----------------------------
 

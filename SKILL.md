@@ -99,7 +99,7 @@ ledger -f $J register Expenses --begin 2026-04-01 --end 2026-05-07
 ledger -f $J register Expenses --monthly --collapse
 
 # Vendor spend history
-ledger -f $J register --payee "Vendor Name"
+ledger -f $J register payee "Vendor Name"
 
 # Contingency consumed
 ledger -f $J balance Expenses:YourProject:Contingency

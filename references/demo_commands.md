@@ -9,7 +9,7 @@ export J="/Users/nick/.openclaw/workspace/skills/ledger-draw/references/tn1_jour
 
 ## 1. FULL PROJECT BALANCE SUMMARY
 ```bash
-ledger -f $J balance Expenses --depth 2
+ledger -f $J balance Expenses --depth 3
 ```
 **What it shows:** All costs grouped by Hard Costs, Soft Costs, Contingency
 **Say:** "This is the 30,000-foot view — total spend by major category since day one."
@@ -45,7 +45,7 @@ ledger -f $J register Expenses --begin 2026-04-01 --end 2026-05-07
 
 ## 5. VENDOR SPEND HISTORY (Pick Any Vendor)
 ```bash
-ledger -f $J register --payee "Mesa Concrete"
+ledger -f $J register payee Mesa
 ```
 **What it shows:** Every payment to Mesa Concrete across the whole project
 **Say:** "Lenders want to see vendor history to spot overbilling. One command surfaces everything."
