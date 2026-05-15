@@ -91,13 +91,13 @@ python3 scripts/prepare_draw.py
 Output is saved as `draw_{number}_{date}.md` in your configured `OUTPUT_DIR`.
 
 ### Try it with the sample journal
-The repo includes a complete sample journal (`references/tn1_journal.ledger`) based on a fictional multifamily construction project. Run it out of the box to see the tool in action.
+The repo includes a complete sample journal (`references/gn1_journal.ledger`) based on a fictional multifamily construction project. Run it out of the box to see the tool in action.
 
 ### Useful Ledger CLI queries
 
 ```bash
 # Set journal path shortcut
-export J="references/tn1_journal.ledger"
+export J="references/gn1_journal.ledger"
 
 # Full project balance summary
 ledger -f $J balance Expenses --depth 2
@@ -147,7 +147,7 @@ Liabilities:ProjectName:ConstructionLoan
 Equity:ProjectName:OwnerEquity
 ```
 
-See [`references/tn1_journal.ledger`](references/tn1_journal.ledger) for a complete working example.
+See [`references/gn1_journal.ledger`](references/gn1_journal.ledger) for a complete working example.
 
 ---
 
