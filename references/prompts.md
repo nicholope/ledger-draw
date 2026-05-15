@@ -35,6 +35,76 @@ CONTINGENCY USED TO DATE:
 
 ---
 
+## CRITICAL MATHEMATICAL REQUIREMENTS
+
+ALL financial tables in the output MUST have exact arithmetic integrity. This is non-negotiable for lender acceptance.
+
+### FOOTING VALIDATION (Before Output)
+
+1. **Row Totals:** Every row must sum correctly
+   - All line-item amounts in a row must equal the row subtotal
+   - Example: $100 + $200 + $150 = $450 (TOTAL row)
+
+2. **Column Totals:** Every column must sum correctly
+   - All rows in a column must equal the column subtotal
+   - Example: Budget column: $1,000 + $2,000 + $3,000 = $6,000 (TOTAL row)
+
+3. **Remaining Calculation Accuracy:** Budget - Spent = Remaining (exactly)
+   - Do NOT round or estimate
+   - If Budget: $120,000 and Spent: $12,500, then Remaining MUST be $107,500
+   - Any rounding discrepancies must be corrected
+
+4. **Cross-Check All Totals:**
+   - HARD COSTS total row must equal sum of all hard cost line items
+   - SOFT COSTS total row must equal sum of all soft cost line items
+   - CONTINGENCY total row must equal sum of all contingency line items
+   - PROJECT TOTAL must equal: Hard Costs + Soft Costs + Contingency totals
+
+### TABLE VALIDATION CHECKLIST
+
+For each "Budget vs. Actual Schedule" table, verify BEFORE including in output:
+
+✓ **Spent To Date column:** Sum of all category line items = Subtotal
+✓ **This Draw column:** Sum of all category line items = Subtotal  
+✓ **Remaining column:** Each row calculates as (Budget - Spent To Date)
+✓ **Column cross-totals:** Budget column total + Spent total + This Draw total + Remaining total all reconcile
+✓ **Grand total:** Sum of category totals = PROJECT SUMMARY total
+
+### IF ANY TABLE DOES NOT FOOT:
+
+**STOP. DO NOT OUTPUT THE DOCUMENT.**
+
+1. Identify the failing table
+2. Recalculate every cell independently
+3. Verify sums by adding manually (not relying on prior calculations)
+4. Only include the table in final output when 100% arithmetically correct
+5. If you cannot reconcile, explain the discrepancy before output
+
+### EXAMPLES
+
+**CORRECT TABLE (all arithmetic exact):**
+```
+| Category | Budget Allocated | Spent to Date | This Draw | Remaining |
+|----------|------------------|----------------|-----------|----------|
+| MEP      | $350,000.00      | $112,500.00    | $112,500   | $237,500 |
+| Drywall  | $200,000.00      | $44,300.00     | $44,300    | $155,700 |
+| TOTAL    | $550,000.00      | $156,800.00    | $156,800   | $393,200 |
+```
+Verification: $112,500 + $44,300 = $156,800 ✓ | $237,500 + $155,700 = $393,200 ✓
+
+**INCORRECT TABLE (rejected, do not output):**
+```
+| Category | Budget Allocated | Spent to Date | This Draw | Remaining |
+|----------|------------------|----------------|-----------|----------|
+| MEP      | $350,000.00      | $112,500.00    | $112,500   | $237,500 |
+| Drywall  | $200,000.00      | $44,300.00     | $44,300    | $155,700 |
+| TOTAL    | $550,000.00      | $156,800.00    | $156,800   | $392,100 | ← WRONG ($237,500 + $155,700 = $393,200, not $392,100)
+```
+
+**NO EXCEPTIONS.** Lender draw requests with mathematical errors will be rejected outright and damage borrower credibility.
+
+---
+
 Please generate a complete, professional draw request package in markdown format with the following sections:
 
 1. DRAW REQUEST COVER SUMMARY
