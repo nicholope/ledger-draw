@@ -11,12 +11,12 @@
 ; ----------------------------
 
 2026-01-01 * Project Funding — Equity Contribution
-    Assets:TN1:ConstructionAccount          $1,200,000.00
-    Equity:TN1:OwnerEquity
+    Assets:GN1:ConstructionAccount          $1,200,000.00
+    Equity:GN1:OwnerEquity
 
 2026-01-15 * Lender Draw #1 — Initial Advance (Western Alliance)
-    Assets:TN1:ConstructionAccount          $800,000.00
-    Liabilities:TN1:ConstructionLoan
+    Assets:GN1:ConstructionAccount          $800,000.00
+    Liabilities:GN1:ConstructionLoan
 
 
 ; ----------------------------
@@ -24,16 +24,16 @@
 ; ----------------------------
 
 2026-01-10 * Invoice #1001 — Desert Grading Co. (Site Clearing & Grading)
-    Expenses:TN1:HardCosts:SiteWork         $48,500.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:SiteWork         $48,500.00
+    Assets:GN1:ConstructionAccount
 
 2026-01-22 * Invoice #1002 — SunState Underground (Utilities Rough-In)
-    Expenses:TN1:HardCosts:SiteWork         $72,300.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:SiteWork         $72,300.00
+    Assets:GN1:ConstructionAccount
 
 2026-02-03 * Invoice #1003 — Desert Grading Co. (Paving — Paseo Paths)
-    Expenses:TN1:HardCosts:SiteWork         $31,200.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:SiteWork         $31,200.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -41,16 +41,16 @@
 ; ----------------------------
 
 2026-01-28 * Invoice #1004 — Mesa Concrete Works (Foundation Pour — Block A)
-    Expenses:TN1:HardCosts:Concrete         $94,750.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Concrete         $94,750.00
+    Assets:GN1:ConstructionAccount
 
 2026-02-14 * Invoice #1005 — Mesa Concrete Works (Foundation Pour — Block B)
-    Expenses:TN1:HardCosts:Concrete         $88,200.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Concrete         $88,200.00
+    Assets:GN1:ConstructionAccount
 
 2026-02-28 * Invoice #1006 — Mesa Concrete Works (Flatwork & Courtyards)
-    Expenses:TN1:HardCosts:Concrete         $41,600.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Concrete         $41,600.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -58,12 +58,12 @@
 ; ----------------------------
 
 2026-02-10 * Invoice #1007 — Sonoran Frame LLC (Wood Framing — Blocks A & B)
-    Expenses:TN1:HardCosts:Framing          $187,400.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Framing          $187,400.00
+    Assets:GN1:ConstructionAccount
 
 2026-03-05 * Invoice #1008 — Sonoran Frame LLC (Framing — Block C)
-    Expenses:TN1:HardCosts:Framing          $143,800.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Framing          $143,800.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -71,24 +71,24 @@
 ; ----------------------------
 
 2026-02-20 * Invoice #1009 — Valley MEP Inc. (Rough-In Plumbing — Block A)
-    Expenses:TN1:HardCosts:MEP:Plumbing     $56,900.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:MEP:Plumbing     $56,900.00
+    Assets:GN1:ConstructionAccount
 
 2026-03-12 * Invoice #1010 — Valley MEP Inc. (Rough-In Plumbing — Block B)
-    Expenses:TN1:HardCosts:MEP:Plumbing     $54,200.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:MEP:Plumbing     $54,200.00
+    Assets:GN1:ConstructionAccount
 
 2026-03-01 * Invoice #1011 — SunPower Electric (Electrical Rough-In — Block A)
-    Expenses:TN1:HardCosts:MEP:Electrical   $78,600.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:MEP:Electrical   $78,600.00
+    Assets:GN1:ConstructionAccount
 
 2026-03-18 * Invoice #1012 — SunPower Electric (Electrical Rough-In — Block B)
-    Expenses:TN1:HardCosts:MEP:Electrical   $71,400.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:MEP:Electrical   $71,400.00
+    Assets:GN1:ConstructionAccount
 
 2026-04-02 * Invoice #1013 — Desert Air HVAC (HVAC Installation — Block A)
-    Expenses:TN1:HardCosts:MEP:HVAC         $112,500.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:MEP:HVAC         $112,500.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -96,12 +96,12 @@
 ; ----------------------------
 
 2026-04-10 * Invoice #1014 — Tempe Drywall Co. (Drywall — Block A)
-    Expenses:TN1:HardCosts:Finishes:Drywall  $44,300.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Finishes:Drywall  $44,300.00
+    Assets:GN1:ConstructionAccount
 
 2026-04-22 * Invoice #1015 — Southwest Tile & Paint (Flooring & Paint — Block A)
-    Expenses:TN1:HardCosts:Finishes:Interior  $67,800.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Finishes:Interior  $67,800.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -109,12 +109,12 @@
 ; ----------------------------
 
 2026-04-15 * Invoice #1016 — Verde Landscape Group (Courtyard Landscaping — Phase 1)
-    Expenses:TN1:HardCosts:Landscaping       $38,900.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Landscaping       $38,900.00
+    Assets:GN1:ConstructionAccount
 
 2026-05-01 * Invoice #1017 — Verde Landscape Group (Paseo Planting & Irrigation)
-    Expenses:TN1:HardCosts:Landscaping       $29,400.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:HardCosts:Landscaping       $29,400.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -122,24 +122,24 @@
 ; ----------------------------
 
 2026-01-05 * Invoice #2001 — Opticos Design (Architecture — Phase 2 CDs)
-    Expenses:TN1:SoftCosts:Architecture      $85,000.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Architecture      $85,000.00
+    Assets:GN1:ConstructionAccount
 
 2026-02-15 * Invoice #2002 — Opticos Design (Architecture — Construction Admin, Feb)
-    Expenses:TN1:SoftCosts:Architecture      $12,500.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Architecture      $12,500.00
+    Assets:GN1:ConstructionAccount
 
 2026-03-15 * Invoice #2003 — Opticos Design (Architecture — Construction Admin, Mar)
-    Expenses:TN1:SoftCosts:Architecture      $12,500.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Architecture      $12,500.00
+    Assets:GN1:ConstructionAccount
 
 2026-04-15 * Invoice #2004 — Opticos Design (Architecture — Construction Admin, Apr)
-    Expenses:TN1:SoftCosts:Architecture      $12,500.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Architecture      $12,500.00
+    Assets:GN1:ConstructionAccount
 
 2026-01-20 * Invoice #2005 — Kimley-Horn (Civil Engineering)
-    Expenses:TN1:SoftCosts:Engineering       $34,200.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Engineering       $34,200.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -147,12 +147,12 @@
 ; ----------------------------
 
 2026-01-08 * City of Tempe — Building Permit Fee (Block A & B)
-    Expenses:TN1:SoftCosts:Permits           $28,400.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Permits           $28,400.00
+    Assets:GN1:ConstructionAccount
 
 2026-02-01 * City of Tempe — Utility Connection Fee
-    Expenses:TN1:SoftCosts:Permits           $14,600.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Permits           $14,600.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -160,20 +160,20 @@
 ; ----------------------------
 
 2026-01-31 * Bien Arizonense PM Fee — January (3% of Hard Costs)
-    Expenses:TN1:SoftCosts:PMFee             $18,200.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:PMFee             $18,200.00
+    Assets:GN1:ConstructionAccount
 
 2026-02-28 * Bien Arizonense PM Fee — February
-    Expenses:TN1:SoftCosts:PMFee             $24,600.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:PMFee             $24,600.00
+    Assets:GN1:ConstructionAccount
 
 2026-03-31 * Bien Arizonense PM Fee — March
-    Expenses:TN1:SoftCosts:PMFee             $31,400.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:PMFee             $31,400.00
+    Assets:GN1:ConstructionAccount
 
 2026-04-30 * Bien Arizonense PM Fee — April
-    Expenses:TN1:SoftCosts:PMFee             $28,800.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:PMFee             $28,800.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -181,12 +181,12 @@
 ; ----------------------------
 
 2026-01-01 * Travelers Insurance — Builder's Risk Premium (Annual)
-    Expenses:TN1:SoftCosts:Insurance         $42,000.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Insurance         $42,000.00
+    Assets:GN1:ConstructionAccount
 
 2026-01-01 * Gallagher — General Liability Premium (Annual)
-    Expenses:TN1:SoftCosts:Insurance         $18,500.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:SoftCosts:Insurance         $18,500.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -194,12 +194,12 @@
 ; ----------------------------
 
 2026-03-22 * Change Order #001 — Mesa Concrete (Unforeseen Soil Remediation)
-    Expenses:TN1:Contingency:ChangeOrders    $22,800.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:Contingency:ChangeOrders    $22,800.00
+    Assets:GN1:ConstructionAccount
 
 2026-04-18 * Change Order #002 — SunPower Electric (Panel Upgrade — Block A)
-    Expenses:TN1:Contingency:ChangeOrders    $14,200.00
-    Assets:TN1:ConstructionAccount
+    Expenses:GN1:Contingency:ChangeOrders    $14,200.00
+    Assets:GN1:ConstructionAccount
 
 
 ; ----------------------------
@@ -207,12 +207,12 @@
 ; ----------------------------
 
 2026-05-07 * Capital Contribution — Investor A (Solano Capital Partners)
-    Assets:TN1:ConstructionAccount          $500,000.00
-    Equity:TN1:InvestorA:Solano
+    Assets:GN1:ConstructionAccount          $500,000.00
+    Equity:GN1:InvestorA:Solano
 
 2026-05-07 * Capital Contribution — Investor B (R. Mendez — HNW Individual)
-    Assets:TN1:ConstructionAccount          $250,000.00
-    Equity:TN1:InvestorB:Mendez
+    Assets:GN1:ConstructionAccount          $250,000.00
+    Equity:GN1:InvestorB:Mendez
 
 
 ; ----------------------------
@@ -220,8 +220,8 @@
 ; ----------------------------
 
 2026-05-07 * AJE-001 — Reclassify PM Fees: Cash → Accrued Liability
-    Assets:TN1:ConstructionAccount          $103,000.00
-    Liabilities:TN1:AccruedPMFees          $-103,000.00
+    Assets:GN1:ConstructionAccount          $103,000.00
+    Liabilities:GN1:AccruedPMFees          $-103,000.00
 
 
 ; ----------------------------
@@ -229,5 +229,5 @@
 ; ----------------------------
 
 2026-04-01 * Lender Draw #2 — April Advance (Western Alliance)
-    Assets:TN1:ConstructionAccount           $600,000.00
-    Liabilities:TN1:ConstructionLoan
+    Assets:GN1:ConstructionAccount           $600,000.00
+    Liabilities:GN1:ConstructionLoan

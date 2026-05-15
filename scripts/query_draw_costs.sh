@@ -26,8 +26,8 @@ ledger -f "$JOURNAL" balance Expenses --depth 3
 
 echo ""
 echo "--- CURRENT CASH BALANCE ---"
-ledger -f "$JOURNAL" balance Assets:TN1:ConstructionAccount
+ledger -f "$JOURNAL" balance Assets:GN1:ConstructionAccount
 
 echo ""
 echo "--- TOTAL LOAN DRAWN TO DATE ---"
-ledger -f "$JOURNAL" balance Liabilities:TN1:ConstructionLoan
+ledger -f "$JOURNAL" balance Liabilities:GN1:ConstructionLoan

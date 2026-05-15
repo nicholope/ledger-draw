@@ -115,7 +115,7 @@ ledger -f $J register Expenses --monthly --collapse
 ledger -f $J register payee "Vendor Name"
 
 # Contingency consumed
-ledger -f $J balance Expenses:TN1:Contingency
+ledger -f $J balance Expenses:GN1:Contingency
 
 # Cash balance
 ledger -f $J balance Assets

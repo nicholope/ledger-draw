@@ -18,7 +18,7 @@ ledger -f $J balance Expenses --depth 3
 
 ## 2. DRILL DOWN INTO HARD COSTS
 ```bash
-ledger -f $J balance Expenses:TN1:HardCosts --depth 4
+ledger -f $J balance Expenses:GN1:HardCosts --depth 4
 ```
 **What it shows:** Site work, concrete, framing, MEP, finishes, landscaping broken out
 **Say:** "Framing is our biggest hard cost so far at $331K — typical for this phase of construction."
@@ -54,7 +54,7 @@ ledger -f $J register payee Mesa
 
 ## 6. CASH POSITION
 ```bash
-ledger -f $J balance Assets:TN1:ConstructionAccount
+ledger -f $J balance Assets:GN1:ConstructionAccount
 ```
 **What it shows:** Current bank balance in the construction account
 **Say:** "We have $938K in the construction account. The draw request will tell us when we need to pull the next advance."
@@ -63,7 +63,7 @@ ledger -f $J balance Assets:TN1:ConstructionAccount
 
 ## 7. LOAN BALANCE
 ```bash
-ledger -f $J balance Liabilities:TN1:ConstructionLoan
+ledger -f $J balance Liabilities:GN1:ConstructionLoan
 ```
 **What it shows:** Total loan drawn to date ($1.4M)
 **Say:** "We've drawn $1.4M of the $4.2M loan facility. Equity went in first, then loan dollars followed."
@@ -72,7 +72,7 @@ ledger -f $J balance Liabilities:TN1:ConstructionLoan
 
 ## 8. CONTINGENCY CONSUMPTION
 ```bash
-ledger -f $J balance Expenses:TN1:Contingency
+ledger -f $J balance Expenses:GN1:Contingency
 ```
 **What it shows:** Total change orders / contingency used ($37,000)
 **Say:** "This tracks how much of our contingency budget is consumed. $37K out of a typical 5-10% contingency reserve. Important to watch closely — once it's gone, you're in trouble."
@@ -90,7 +90,7 @@ ledger -f $J register Expenses --monthly --collapse
 
 ## 10. SOFT COSTS BREAKDOWN
 ```bash
-ledger -f $J balance Expenses:TN1:SoftCosts --depth 4
+ledger -f $J balance Expenses:GN1:SoftCosts --depth 4
 ```
 **What it shows:** Architecture, engineering, permits, PM fees, insurance
 **Say:** "Soft costs are often overlooked but they're draw-eligible. Insurance and PM fees hit every month."

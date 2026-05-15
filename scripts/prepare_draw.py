@@ -42,13 +42,13 @@ def gather_data():
             "balance", "Expenses", "--depth", "3"
         ]),
         "cash_balance": run_ledger([
-            "balance", "Assets:TN1:ConstructionAccount"
+            "balance", "Assets:GN1:ConstructionAccount"
         ]),
         "loan_balance": run_ledger([
-            "balance", "Liabilities:TN1:ConstructionLoan"
+            "balance", "Liabilities:GN1:ConstructionLoan"
         ]),
         "contingency_balance": run_ledger([
-            "balance", "Expenses:TN1:Contingency"
+            "balance", "Expenses:GN1:Contingency"
         ]),
     }
 
