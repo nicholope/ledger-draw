@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================================
-# TN-1 Draw Package — Ledger CLI Query Scripts
+# GN-1 Draw Package — Ledger CLI Query Scripts
 # Usage: bash query_draw_costs.sh
 # ============================================================
 
@@ -9,7 +9,7 @@ DRAW_START="2026-04-01"
 DRAW_END="2026-05-07"
 
 echo "============================================================"
-echo " TN-1 DRAW #3 — Period: $DRAW_START to $DRAW_END"
+echo " GN-1 DRAW #3 — Period: $DRAW_START to $DRAW_END"
 echo "============================================================"
 
 echo ""

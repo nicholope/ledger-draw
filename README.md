@@ -10,7 +10,7 @@ Built for property developers and accountants managing construction loan draws.
 
 ## Demo Output
 
-See [`references/sample_output.md`](references/sample_output.md) for a full example draw package generated from the included TN-1 sample journal.
+See [`references/sample_output.md`](references/sample_output.md) for a full example draw package generated from the included GN-1 sample journal.
 
 ---
 

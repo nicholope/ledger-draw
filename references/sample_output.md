@@ -1,5 +1,5 @@
 # DRAW REQUEST PACKAGE
-## TN-1 Culdesac Tempe Phase 2
+## GN-1 Culdesac Tempe Phase 2
 
 ---
 
@@ -9,7 +9,7 @@
 |------|--------|
 | **Draw Number** | 3 |
 | **Draw Period** | April 1, 2026 – May 7, 2026 |
-| **Property** | TN-1 Culdesac Tempe Phase 2 |
+| **Property** | GN-1 Culdesac Tempe Phase 2 |
 | **Borrower** | Culdesac |
 | **Lender** | Western Alliance Bank |
 | | |
@@ -116,7 +116,7 @@ Change Order #002 drawn against contingency represents field modifications total
 
 The undersigned hereby certifies that:
 
-1. All costs included in this Draw Request for the period April 1, 2026 through May 7, 2026 have been incurred for work performed on the TN-1 Culdesac Tempe Phase 2 project and are eligible advances under the Construction Loan Agreement dated [LOAN DATE] with Western Alliance Bank.
+1. All costs included in this Draw Request for the period April 1, 2026 through May 7, 2026 have been incurred for work performed on the GN-1 Culdesac Tempe Phase 2 project and are eligible advances under the Construction Loan Agreement dated [LOAN DATE] with Western Alliance Bank.
 
 2. The supporting invoices, lien waivers, and inspection certifications are true, accurate, and complete.
 

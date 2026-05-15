@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TN-1 Draw Package Generator
+GN-1 Draw Package Generator
 Pulls data from Ledger CLI and generates a draw request package via Claude.
 """
 
@@ -59,10 +59,10 @@ def gather_data():
 def build_prompt(data):
     return f"""You are an expert real estate construction accountant preparing a lender draw request package for a multifamily development project.
 
-Below is the financial data extracted from the project's Ledger CLI accounting journal for TN-1 (Culdesac Tempe Phase 2).
+Below is the financial data extracted from the project's Ledger CLI accounting journal for GN-1 (Culdesac Tempe Phase 2).
 
 PROJECT DETAILS:
-- Property: TN-1 (Culdesac Tempe Phase 2)
+- Property: GN-1 (Culdesac Tempe Phase 2)
 - Developer: Culdesac
 - Lender: Western Alliance Bank
 - Total Loan Facility: $4,200,000
@@ -152,7 +152,7 @@ def save_output(content):
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print("=" * 60)
-    print(f"  TN-1 Draw #{DRAW_NUMBER} Package Generator")
+    print(f"  GN-1 Draw #{DRAW_NUMBER} Package Generator")
     print(f"  Period: {DRAW_START} to {DRAW_END}")
     print("=" * 60 + "\n")
 
