@@ -10,7 +10,7 @@
 | **Draw Number** | 3 |
 | **Draw Period** | April 1, 2026 – May 7, 2026 |
 | **Property** | GN-1 Glendale Neighborhood Phase 2 |
-| **Borrower** | Culdesac |
+| **Borrower** | Bien Arizonense |
 | **Lender** | Western Alliance Bank |
 | | |
 | **Total Draw Request (This Period)** | **$348,400.00** |
@@ -136,6 +136,6 @@ The undersigned hereby certifies that:
 **Date:** ____________________________
 
 **Borrower Authorization:** ____________________________  
-**Authorized Representative, Culdesac**
+**Authorized Representative, Bien Arizonense**
 
 **Date:** ____________________________

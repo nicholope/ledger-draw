@@ -9,7 +9,7 @@ Below is the financial data extracted from the project's Ledger CLI accounting j
 
 PROJECT DETAILS:
 - Property: GN-1 (Glendale Neighborhood Phase 2)
-- Developer: Culdesac
+- Developer: Bien Arizonense
 - Lender: Western Alliance Bank
 - Total Loan Facility: $4,200,000
 - Draw Number: 3

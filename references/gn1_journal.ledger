@@ -159,19 +159,19 @@
 ; SOFT COSTS — PROJECT MANAGEMENT
 ; ----------------------------
 
-2026-01-31 * Culdesac PM Fee — January (3% of Hard Costs)
+2026-01-31 * Bien Arizonense PM Fee — January (3% of Hard Costs)
     Expenses:TN1:SoftCosts:PMFee             $18,200.00
     Assets:TN1:ConstructionAccount
 
-2026-02-28 * Culdesac PM Fee — February
+2026-02-28 * Bien Arizonense PM Fee — February
     Expenses:TN1:SoftCosts:PMFee             $24,600.00
     Assets:TN1:ConstructionAccount
 
-2026-03-31 * Culdesac PM Fee — March
+2026-03-31 * Bien Arizonense PM Fee — March
     Expenses:TN1:SoftCosts:PMFee             $31,400.00
     Assets:TN1:ConstructionAccount
 
-2026-04-30 * Culdesac PM Fee — April
+2026-04-30 * Bien Arizonense PM Fee — April
     Expenses:TN1:SoftCosts:PMFee             $28,800.00
     Assets:TN1:ConstructionAccount
 

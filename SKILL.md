@@ -145,7 +145,7 @@ ledger-draw/
 │   ├── prepare_draw.py               # Main draw package generator
 │   └── query_draw_costs.sh           # Standalone Ledger query script
 └── references/
-    ├── tn1_journal.ledger            # Sample Culdesac GN-1 journal
+    ├── tn1_journal.ledger            # Sample Bien Arizonense GN-1 journal
     ├── prompts.md                    # Claude prompt templates
     ├── demo_commands.md              # CLI cheat sheet
     └── sample_output.md             # Example draw package output
