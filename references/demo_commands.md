@@ -125,4 +125,4 @@ bash /Users/nick/.openclaw/workspace/skills/ledger-draw/scripts/query_draw_costs
 | Loan drawn to date | $1,400,000 |
 | Contingency used | $37,000 |
 | Lender | Western Alliance Bank |
-| Property | GN-1 (Culdesac Tempe Phase 2) |
+| Property | GN-1 (Glendale Neighborhood Phase 2) |

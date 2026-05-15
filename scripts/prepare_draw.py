@@ -59,10 +59,10 @@ def gather_data():
 def build_prompt(data):
     return f"""You are an expert real estate construction accountant preparing a lender draw request package for a multifamily development project.
 
-Below is the financial data extracted from the project's Ledger CLI accounting journal for GN-1 (Culdesac Tempe Phase 2).
+Below is the financial data extracted from the project's Ledger CLI accounting journal for GN-1 (Glendale Neighborhood Phase 2).
 
 PROJECT DETAILS:
-- Property: GN-1 (Culdesac Tempe Phase 2)
+- Property: GN-1 (Glendale Neighborhood Phase 2)
 - Developer: Culdesac
 - Lender: Western Alliance Bank
 - Total Loan Facility: $4,200,000
