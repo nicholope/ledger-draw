@@ -163,7 +163,7 @@ ledger-draw/
 │   ├── prepare_draw.py               # Main draw package generator
 │   └── query_draw_costs.sh           # Standalone Ledger query script
 └── references/
-    ├── tn1_journal.ledger            # Sample construction project journal
+    ├── gn1_journal.ledger            # Sample construction project journal
     ├── prompts.md                    # Claude prompt templates
     ├── demo_commands.md              # Ledger CLI cheat sheet
     └── sample_output.md             # Example draw package output
