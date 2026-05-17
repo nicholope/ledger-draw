@@ -1,8 +1,11 @@
 # GN-1 Ledger CLI — Demo Command Cheat Sheet
 
 ## Setup (run once)
+
+**From the ledger-draw/ directory:**
 ```bash
-export J="/Users/nick/.openclaw/workspace/skills/ledger-draw/references/tn1_journal.ledger"
+cd ledger-draw/
+export J="references/gn1_journal.ledger"
 ```
 
 ---
@@ -108,7 +111,7 @@ ledger -f $J register
 
 ## 12. RUN THE FULL DRAW QUERY SCRIPT
 ```bash
-bash /Users/nick/.openclaw/workspace/skills/ledger-draw/scripts/query_draw_costs.sh
+bash scripts/query_draw_costs.sh
 ```
 **What it shows:** Full draw package data output in one command
 **Say:** "This single script generates everything I need to start building the draw package. Claude takes it from here."
