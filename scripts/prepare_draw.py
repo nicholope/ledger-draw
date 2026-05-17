@@ -10,11 +10,15 @@ import datetime
 import os
 
 # ── Config ────────────────────────────────────────────────────────────────────
-JOURNAL = "/Users/nick/.openclaw/workspace/skills/ledger-draw/references/tn1_journal.ledger"
+# NOTE: Run this script from the ledger-draw/ directory:
+#   cd ledger-draw/
+#   python3 scripts/prepare_draw.py
+
+JOURNAL = "references/gn1_journal.ledger"
 DRAW_START = "2026-04-01"
 DRAW_END = "2026-05-07"
 DRAW_NUMBER = 3
-OUTPUT_DIR = "/Users/nick/.openclaw/workspace/skills/ledger-draw"
+OUTPUT_DIR = "."
 
 # ── Ledger Query Helper ───────────────────────────────────────────────────────
 def run_ledger(args):
