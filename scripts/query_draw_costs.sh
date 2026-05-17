@@ -1,10 +1,11 @@
 #!/bin/bash
 # ============================================================
 # GN-1 Draw Package — Ledger CLI Query Scripts
-# Usage: bash query_draw_costs.sh
+# Usage: bash scripts/query_draw_costs.sh
+# (Run from the ledger-draw/ directory)
 # ============================================================
 
-JOURNAL="/Users/nick/.openclaw/workspace/skills/ledger-draw/references/tn1_journal.ledger"
+JOURNAL="references/gn1_journal.ledger"
 DRAW_START="2026-04-01"
 DRAW_END="2026-05-07"
 
